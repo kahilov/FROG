@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: grid;
+    background-color: green;
+    grid-template-rows: 1fr 10fr 1fr
+}
+#counter{
+    position: relative;
+    display: grid;
+    text-align: center;
+    font-size: xx-large;
+    background-color: turquoise;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+}
+#start{
+    display: grid;
+    font-size: xx-large;
+    background-color: aqua;
+    text-align: center;
+    cursor: pointer
+}
+#fleft{
+    display: grid;
+    text-align: center;
+    background-color: lightgreen;
+    font-size: xx-large;
+}
+#level{
+    display: grid;
+    text-align: center;
+    background-color: lightgreen;
+    font-size: xx-large;
+}
+
